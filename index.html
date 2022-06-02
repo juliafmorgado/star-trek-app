@@ -5,12 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Trek Aliens App</title>
+    <link rel="stylesheet" type="text/css" href="lcars-classic.min.css">
 </head>
 <body>
     
-    <h1>Star Trek App</h1>
+    <h1>Federation Field Guide to Aliens</h1>
+			
+	<h2>Enter the name of an alien species below</h2>
+
+	<p>On away missions, it is vital to know the basic facts and characteristics about the aliens you will encounter. Enter the species name of your new friend (or foe) to obtain information about them.</p>
+
     <input type="text">
-    <button>Click to get info</button>
+    
+    <div class="buttons">
+        <a href="" class="sunflower" id="getButton">Get Info</a>
+    </div>
+
+    <div class="pics-right">
+        <img src="" alt="alien image" class="border" id="alienImage">
+        <p class="caption" id="alienCaption">Photo</p>
+    </div>
+    
+
+    <ul class="lcars-list">
+        <li><span>Species name: </span><span id="alienName"></span> </li>
+        <li><span>Homeworld: </span><span id="alienWorld"></span></li>
+        <li><span>Distinguishing features: </span><span id="alienFeatures"></span></li>
+        <li><span>Interesting facts: </span><span id="alienFacts"></span></li>
+        <li><span>Notable Example: </span><span id="alienExamples"></span></li>
+    </ul>
     <script src="main.js"></script>
+    <script src="lcars.js"></script>
 </body>
 </html>
