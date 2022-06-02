@@ -2,5 +2,9 @@
 
 async function apiRequest(){
     const alienName = document.querySelector('input').value.toLocaleLowerCase()
+    try{
 
+    } catch{
+        
+    }
 }
