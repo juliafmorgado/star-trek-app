@@ -12,11 +12,9 @@
 <h2>What was learned</h2>
 
 <ul>
- <li>Initializing Node.js and excluding node_modules with .gitignore file</li>
- <li>Connecting frontend to backend via an API</li>
-  <li>Pushing to Heroku</li>
-  <li>Working with JSON formatted data</li>
-  <li>Loading environment variables from an .env file</li>
+ <li>Writing code that enables the front-end and back-end of the web application to communicate with each other</li>
+  <li>Using Async/Await instead of promises and try-catch block to catch exceptions</li>
+  <li>Working with JSON data</li>
  
 </ul>
 
